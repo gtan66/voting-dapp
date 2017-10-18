@@ -44,5 +44,5 @@ app.get('/candidates', function(req, res) {
 });
 
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+  console.log('App ready and listening on port 3000!')
 });

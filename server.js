@@ -10,7 +10,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json());
 
 app.get('/', function(req, res){
-//specify root with path
   res.sendFile(path.join(__dirname + 'public/index.html'));
 });
 
